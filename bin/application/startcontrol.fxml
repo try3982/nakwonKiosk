@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="application.startController">
+   <center>
+      <AnchorPane prefHeight="462.0" prefWidth="332.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="packing" layoutX="70.0" layoutY="178.0" mnemonicParsing="false" onAction="#switchToRecommand" prefHeight="62.0" prefWidth="64.0" text="포장" />
+            <Button fx:id="instore" layoutX="202.0" layoutY="178.0" mnemonicParsing="false" onAction="#switchToRecommand" prefHeight="62.0" prefWidth="64.0" text="매장" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

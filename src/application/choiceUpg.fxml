@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.choiceUpgrade">
+   <center>
+      <AnchorPane prefHeight="462.0" prefWidth="332.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="packing" layoutX="37.0" layoutY="178.0" mnemonicParsing="false" onAction="#switchToUpg" prefHeight="62.0" prefWidth="104.0" text="업그레이드" />
+            <Button fx:id="instore" layoutX="193.0" layoutY="178.0" mnemonicParsing="false" onAction="#switchToCart" prefHeight="62.0" prefWidth="105.0" text="장바구니추가" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
